@@ -1,5 +1,5 @@
 const ranks = {
-  pageA: [
+  Clone: [
     {
       id: 1,
       name: 'Animalia',
@@ -21,7 +21,7 @@ const ranks = {
       description: "Bacteria (common noun bacteria, singular bacterium) constitute a large domain of prokaryotic microorganisms. Typically a few micrometres in length, bacteria have a number of shapes, ranging from spheres to rods and spirals. Bacteria were among the first life forms to appear on Earth, and are present in most of its habitats. Bacteria inhabit soil, water, acidic hot springs, radioactive waste, and the deep portions of Earth's crust. Bacteria also live in symbiotic and parasitic relationships with plants and animals. Most bacteria have not been characterised, and only about half of the bacterial phyla have species that can be grown in the laboratory. The study of bacteria is known as bacteriology, a branch of microbiology."
     }
   ],
-  pageb: [
+  Branch: [
     {
       id: 5,
       name: 'Arthropoda',
@@ -48,7 +48,7 @@ const ranks = {
       description: 'The "Proteobacteria" are a major phylum of Gram-negative bacteria. The name of the phylum has never been validly published as no type genus has been proposed, thus it must be styled in quotation marks as the name has no standing in nomenclature. They include a wide variety of pathogens, such as Escherichia, Salmonella, Vibrio, Helicobacter, Yersinia, and many other notable genera. Others are free-living (nonparasitic), and include many of the bacteria responsible for nitrogen fixation. Carl Woese established this grouping in 1987, calling it informally the "purple bacteria and their relatives". Because of the great diversity of forms found in this group, the "Proteobacteria" are named after Proteus, a Greek god of the sea capable of assuming many different shapes and is not named after the genus Proteus.'
     }
   ],
-  pageC: [
+  Push: [
     {
       id: 10,
       name: 'Insecta',
@@ -75,7 +75,7 @@ const ranks = {
       description: 'Gammaproteobacteria are a class of several medically, ecologically, and scientifically important groups of bacteria. An exceeding number of important pathogens belong to this class. Like all Proteobacteria, the Gammaproteobacteria are Gram-negative. The Gammaproteobacteria comprise several medically and scientifically important groups of bacteria, such as the Enterobacteriaceae, Vibrionaceae, and Pseudomonadaceae. A number of important pathogens belong to this class, e.g. Salmonella spp. (enteritis and typhoid fever), Yersinia pestis (plague), Vibrio cholerae (cholera), Pseudomonas aeruginosa (lung infections in hospitalized or cystic fibrosis patients), and Escherichia coli (food poisoning).'
     }
   ],
-  pageD: [
+  Merge: [
     {
       id: 15,
       name: 'Diptera',
@@ -100,60 +100,6 @@ const ranks = {
       id: 19,
       name: 'Enterobacteriales',
       description: 'The Enterobacteriales are an order of gram-negative bacteria that includes only one family which is the Enterobacteriaceae.'
-    }
-  ],
-  pageE: [
-    {
-      id: 20,
-      name: 'Drosophilidae',
-      description: 'The Drosophilidae are a diverse, cosmopolitan family of flies, which includes fruit flies. Another unrelated family of flies, Tephritidae, also includes species known as "fruit flies". The best known species of the Drosophilidae is Drosophila melanogaster, within the genus Drosophila, and this species is used extensively for studies concerning genetics, development, physiology, ecology and behaviour. This fruit fly is mostly composed of post-mitotic cells, has a very short lifespan, and shows gradual aging. As in other species, temperature influences the life history of the animal. Several genes have been identified that can be manipulated to extend the lifespan of these insects.'
-    },
-    {
-      id: 21,
-      name: 'Hominidae',
-      description: 'The Hominidae, whose members are known as great apes or hominids, are a taxonomic family of primates that includes seven extant species in four genera: Pongo, the Bornean and Sumatran orangutan; Gorilla, the eastern and western gorilla; Pan, the common chimpanzee and the bonobo; and Homo, the human (and though not extant, the near-human ancestors and relatives (e.g., the Neanderthal)).'
-    },
-    {
-      id: 22,
-      name: 'Fabaceae',
-      description: 'The Fabaceae, Leguminosae or Papilionaceae, commonly known as the legume, pea, or bean family, are a large and economically important family of flowering plants. It includes trees, shrubs, and perennial or annual herbaceous plants, which are easily recognized by their fruit (legume) and their compound, stipulated leaves. Many legumes have characteristics of flowers and fruits.The family is widely distributed, and is the third-largest land plant family in terms of number of species, behind only the Orchidaceae and Asteraceae, with about 751 genera and some 19,000 known species. The five largest of the genera are Astragalus (over 3,000 species), Acacia (over 1000 species), Indigofera (around 700 species), Crotalaria (around 700 species) and Mimosa (around 500 species), which constitute about a quarter of all legume species. The ca. 19,000 known legume species amount to about 7% of flowering plant species. Fabaceae is the most common family found in tropical rainforests and in dry forests in the Americas and Africa.'
-    },
-    {
-      id: 23,
-      name: 'Amanitaceae',
-      description: 'The Amanitaceae is a family of mushroom-forming fungi. The family, also commonly called the amanita family, is in order Agaricales, the gilled mushrooms. The family consists primarily of the large genus Amanita, but also includes the smaller genera Amarrendia, Catatrama, Limacella, Saproamanita and Torrendia. Both Amarrendia and Torrendia and considered to be synonymous with Amanita but appear quite different because they are secotioid. The species are usually found in woodlands. The most characteristic emerge from an egg-like structure formed by the universal veil.'
-    },
-    {
-      id: 24,
-      name: 'Enterobacteriaceae',
-      description: 'The Enterobacteriaceae are a large family of Gram-negative bacteria that includes, along with many harmless symbionts, many of the more familiar pathogens, such as Salmonella, Escherichia coli, Yersinia pestis, Klebsiella, and Shigella. Other disease-causing bacteria in this family include Proteus, Enterobacter, Serratia, and Citrobacter. This family is the only representative in the order Enterobacteriales of the class Gammaproteobacteria in the phylum Proteobacteria. Phylogenetically, in the Enterobacteriales, several peptidoglycan-less insect endosymbionts form a sister clade to the Enterobacteriaceae, but as they are not validly described, this group is not officially a taxon; examples of these species are Sodalis, Buchnera, Wigglesworthia, Baumannia cicadellinicola, and Blochmannia, but not former Rickettsias. Members of the Enterobacteriaceae can be trivially referred to as enterobacteria or "enteric bacteria", as several members live in the intestines of animals. In fact, the etymology of the family is enterobacterium with the suffix to designate a family (aceae)—not after the genus Enterobacter (which would be "Enterobacteraceae")—and the type genus is Escherichia.'
-    }
-  ],
-  pageF: [
-    {
-      id: 25,
-      name: 'Drosophila',
-      description: 'Drosophila is a genus of flies, belonging to the family Drosophilidae, whose members are often called "fruit flies" or (less frequently) pomace flies, vinegar flies, or wine flies, a reference to the characteristic of many species to linger around overripe or rotting fruit. They should not be confused with the Tephritidae, a related family, which are also called fruit flies (sometimes referred to as "true fruit flies"); tephritids feed primarily on unripe or ripe fruit, with many species being regarded as destructive agricultural pests, especially the Mediterranean fruit fly.'
-    },
-    {
-      id: 26,
-      name: 'Homo',
-      description: 'Homo is the genus that comprises the species Homo sapiens, which includes modern humans, as well as several extinct species classified as ancestral to or closely related to modern humans, most notably Homo erectus. The genus is between 2 and 3 million years old, taken to emerge with the appearance of Homo habilis and possibly that of Homo gautengensis. Homo is derived from the genus Australopithecus, which itself had previously split from the lineage of Pan, the chimpanzees. Taxonomically, Homo is the only genus assigned to the subtribe Hominina which, with the subtribes Australopithecina and Panina, comprise the tribe Hominini (see evolutionary tree below). All species of the genus Homo plus those species of the australopithecines that arose after the split from Pan are called hominins.'
-    },
-    {
-      id: 27,
-      name: 'Pisum',
-      description: 'Pisum is a genus of the family Fabaceae, native to southwest Asia and northeast Africa. Pisum sativum (the field or garden pea), is a major human food crop. Pisum species are used as food plants by the larvae of some Lepidoptera species including Bucculatrix pyrivorella, cabbage moth, common swift, ghost moth, Hypercompe indecisa, the nutmeg, setaceous Hebrew character and turnip moth. The Pisum sativum flower has 5 sepals (fused), 5 petals, 10 stamens (9 fused in a staminal tube and 1 stamen is free) and 1 subsessil carpel.'
-    },
-    {
-      id: 28,
-      name: 'Amanita',
-      description: 'The genus Amanita contains about 600 species of agarics including some of the most toxic known mushrooms found worldwide, as well as some well-regarded edible species. This genus is responsible for approximately 95% of the fatalities resulting from mushroom poisoning, with the death cap accounting for about 50% on its own. The most potent toxin present in these mushrooms is α-amanitin. The genus also contains many edible mushrooms, but mycologists discourage mushroom hunters, other than knowledgeable experts, from selecting any of these for human consumption. Nonetheless, in some cultures, the larger local edible species of Amanita are mainstays of the markets in the local growing season. Samples of this are Amanita zambiana and other fleshy species in central Africa, A. basii and similar species in Mexico, A. caesarea and the "Blusher" Amanita rubescens in Europe, and A. chepangiana in South-East Asia. Other species are used for colouring sauces, such as the red A. jacksonii with a range from eastern Canada to eastern Mexico. Many species are of unknown edibility, especially in countries such as Australia, where many fungi are little-known.'
-    },
-    {
-      id: 29,
-      name: 'Escherichia',
-      description: 'Escherichia is a genus of Gram-negative, nonspore forming, facultatively anaerobic, rod-shaped bacteria from the family Enterobacteriaceae. In those species which are inhabitants of the gastrointestinal tracts of warm-blooded animals, Escherichia species provide a portion of the microbially derived vitamin K for their host. A number of the species of Escherichia are pathogenic. The genus is named after Theodor Escherich, the discoverer of Escherichia coli.'
     }
   ]
 }

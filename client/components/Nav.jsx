@@ -16,12 +16,10 @@ import navNames from '../../data/navigation'
 
 const Nav = () => {
   const rankNames = Object.keys(navNames)
-
   return (
     <div className='nav-box'>
-      <h2>Nav</h2>
       {rankNames.map(rank => {
-      return <button> <Link to = {'/list/' + rank}>{rank}</Link> </button>
+      return <Link to = {'/' + rank}><button className='btn-gradient'>{rank}</button></Link>
           }
         )
       }
