@@ -19,7 +19,7 @@ const Nav = () => {
   return (
     <div className='nav-box'>
       {rankNames.map(rank => {
-      return <Link to = {'/' + rank}><button className='btn-gradient'>{rank}</button></Link>
+      return <Link to = {'/' + rank}><button className='nav-btn'>{rank}</button></Link>
           }
         )
       }
